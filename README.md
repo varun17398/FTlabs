@@ -1,8 +1,8 @@
 # FTLabs backend development test
 
-#Prerequisites
+# Prerequisites
 
-Django and Python
+Django and Python 3
 
 This is a search functionality developed using Django and Python.
 
@@ -22,4 +22,4 @@ Only 25 records are displayed atmost as requested.
 
 The words are sorted based on the given requirement. As I haven't implemented the search bar with UI so everytime you want to get the results for a partial or complete word you need to change the input string in the URL and hit it again and the result takes less than a second which is pretty fast.
 
-In order to run this in your local system all you need to do is go inside the root folder after cloning and then run the command - ```python manage.py runserver``` and then hit the above mentioned URL for the results and evaluation.
+In order to run this in your local system all you need to do is go inside the root folder i.e, ```ftlabs/mysite/``` after cloning and then run the command - ```python manage.py runserver``` and then hit the above mentioned URL for the results and evaluation.
