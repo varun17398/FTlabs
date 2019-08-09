@@ -1,5 +1,9 @@
 # FTLabs backend development test
 
+#Prerequisites
+
+Django and Python
+
 This is a search functionality developed using Django and Python.
 
 Inside the file in the root directory there is a folder called searching which is the core folder for my project. In that folder itself you will find all the necessary code.
