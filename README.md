@@ -12,7 +12,7 @@ I have used SQLite for storing the given data in this framework.
 
 I have also created a superuser which we could get through Django for easy functionality for adding or removing operations on our database.
 
-In order to get the results when you search for a word (partial/complete) you need to give your input word in the url itself which goes like http://127.0.0.1:8000/searching/inputstring/
+In order to get the results when you search for a word (partial/complete) you need to give your input word in the url itself which goes like ```http://127.0.0.1:8000/searching/<inputstring>/```
 
 By hitting the above url with desired string gives all the possible autocomplete words that can be displayed when a user actually enter that word in a search bar. As for this requirement I am even displaying the usage count along with the word which satisfies the given constraints.
 
