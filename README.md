@@ -4,6 +4,8 @@
 
 Django and Python 3
 
+# Implementation
+
 This is a search functionality developed using Django and Python.
 
 I have created a virtualenv and developed all the code as this is a best practice and also recommend you the same to setup a different virtual environment install Django in it and then run this so there won't be any errors.
