@@ -6,6 +6,8 @@ Django and Python
 
 This is a search functionality developed using Django and Python.
 
+I have created a virtualenv and developed all the code as this is a best practice and also recommend you the same to setup a different virtual environment install Django in it and then run this so there won't be any errors.
+
 Inside the file in the root directory there is a folder called searching which is the core folder for my project. In that folder itself you will find all the necessary code.
 
 I have used SQLite for storing the given data in this framework.
