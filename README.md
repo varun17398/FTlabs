@@ -30,5 +30,5 @@ Only 25 records are displayed atmost as requested.
 
 The words are sorted based on the given requirement. As I haven't implemented the search bar with UI so everytime you want to get the results for a partial or complete word you need to change the input string in the URL and hit it again and the result takes less than a second which is pretty fast.
 
-If at all there is any issue in evaluating it and checking I'm attaching a file of scrrenshots which I did so that you could easily check otherwise you could also contact me antine through my mail.
+If at all there is any issue in evaluating it and checking I'm attaching a file of scrrenshots which I did so that you could easily check otherwise you could also contact me anytinme through my mail.
 
