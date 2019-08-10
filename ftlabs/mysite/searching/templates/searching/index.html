@@ -1,0 +1,29 @@
+{% if body %}
+    <!DOCTYPE html>
+    <html>
+    <body>
+    <p>A function is triggered when the user releases a key in the input field. The function gives results of all autocomplete words of possibility with their usage count.</p>
+    <input type="text" id="fname" oninput= "myFunction()">
+    <p id="demo"></p>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("fname").value;
+            var d = {data:x}
+            var url = 'http://127.0.0.1:8000/searching/ans/'+x;
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("demo").innerHTML = this.responseText;
+                }
+            };
+            xhttp.open("GET",url, true);
+            xhttp.setRequestHeader("Content-type", "application/json");
+            xhttp.setRequestHeader("X-CSRFToken", '{{csrf_token}}');
+            xhttp.send()
+        }
+    </script>
+    </body>
+    </html>
+{% else %}
+    <p>No results are available.</p>
+{% endif %}
